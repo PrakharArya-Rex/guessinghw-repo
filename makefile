@@ -9,8 +9,8 @@ README.md:
 	echo "\n2. The number of lines of code contained in guessinggame.sh is:" >> README.md
 	wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
 
-	echo "\n### The decription of task:" >> README.md
-	echo "\n#### The guessinggame.sh program have the following behavior:" >> README.md
+	echo "\n## The decription of task:" >> README.md
+	echo "\n## The guessinggame.sh program have the following behavior:" >> README.md
 	echo "- Make a guessing game and give chances for a specific number of times" >> README.md
 	echo "- If the user's answer is incorrect the user should be advised that their guess was either too low or too high and then they should be prompted to try to guess again." >> README.md
 	echo "- If the user's guess is correct then they should be congratulated and the program should end." >> README.md
